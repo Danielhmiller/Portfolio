@@ -47,7 +47,7 @@ export default function Home() {
             Daniel is a Web Developer from Jackson, MS.
           </h1>
           <h2>
-            As a former United States Marine, he's decided to pursue a career in
+            As a former United States Marine, he has decided to pursue a career in
             tech.
           </h2>
           <h2>
@@ -81,7 +81,7 @@ export default function Home() {
           <div className={styles.project}>
             <h2>Alabama Insurance Guaranty Association</h2>
             <Image src={"/aiga.png"} alt={"AIGA"} width={450} height={250} />
-            <a href="https://alaiga.com" target={"_blank"}>
+            <a href="https://alaiga.com" target={"_blank"} rel="noreferrer">
               View Site
             </a>
           </div>
@@ -90,7 +90,7 @@ export default function Home() {
             <Image src={"/adcock.png"} alt={"AIGA"} width={450} height={250} />
             <a
               href="https://adcock-and-ivison-uunx5.ondigitalocean.app/"
-              target={"_blank"}
+              target={"_blank"} rel="noreferrer"
             >
               View Site
             </a>

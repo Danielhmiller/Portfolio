@@ -1,0 +1,38 @@
+.main {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   position: fixed;
+   padding: 2rem;
+   background-image: linear-gradient(to bottom, #000, #000, transparent);
+   z-index: 99;
+   color: white;
+}
+
+.main h1 {
+   font-size: 4rem;
+}
+
+.navBox {
+   width: 25%;
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+}
+
+.nav li {
+   list-style: none;
+   cursor: pointer;
+   padding-left: 1rem;
+   padding-right: 1rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
+   border-radius: 10px;
+   background-color: white;
+   color: black;
+   font-weight: bold;
+}

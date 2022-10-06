@@ -1,0 +1,148 @@
+.container {
+  padding: 0;
+}
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('/coding.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.content {
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  font-size: 3rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2rem;
+  width: 100%;
+}
+
+.projects h1 {
+  font-size: 3rem;
+}
+
+.projectSec {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  width: 450px;
+}
+
+.project h2 {
+  background-color: black;
+  padding: 0.5rem;
+  width: 450px;
+  text-align: center;
+  min-height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project a {
+  background-color: black;
+  padding: 0.5rem;
+  width: 450px;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 2rem;
+  width: 100%;
+}
+
+.contact h1 {
+  font-size: 3rem;
+}
+
+.conForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  width: 25%;
+}
+
+.conForm input {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.conForm textarea {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 100%;
+  resize: vertical;
+  min-height: 8rem;
+  font-family: 'M PLUS Code Latin', sans-serif;
+}
+
+.conForm button {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 1rem;
+  width: 100%;
+  cursor: pointer;
+  font-family: 'M PLUS Code Latin', sans-serif;
+  background-color: black;
+  color: white;
+}
